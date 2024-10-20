@@ -50,3 +50,6 @@ void Rectangle::show() {
     std::cout << CYAN << "└───────────────────────────────────────┘" << RESET << std::endl;
 }
 
+Figure* Rectangle::copy(){
+    return new Rectangle(*(this->width), *(this->height));
+}

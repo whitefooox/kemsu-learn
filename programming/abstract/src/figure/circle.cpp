@@ -37,3 +37,7 @@ void Circle::show() {
     std::cout << CYAN << "│ " << YELLOW << "Area:   " << BLUE << std::setw(28) << std::fixed << std::setprecision(2) << calcArea() << CYAN << "  │" << RESET << std::endl;
     std::cout << CYAN << "└───────────────────────────────────────┘" << RESET << std::endl;
 }
+
+Figure* Circle::copy(){
+    return new Circle(*(this->radius));
+}

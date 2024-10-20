@@ -17,6 +17,7 @@ public:
     void setHeight(double height);
     double calcArea() override;
     void show() override;
+    Figure* copy() override;
 };
 
 #endif

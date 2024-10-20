@@ -13,6 +13,7 @@ add_executable(FigureApp
     src/figure/figure.cpp
     src/figure/circle.cpp
     src/figure/rectangle.cpp
+    src/figure/cylinder.cpp
 )
 
 # Добавление директории с заголовочными файлами

@@ -16,6 +16,7 @@ public:
     void setRadius(double radius);
     double calcArea() override;
     void show() override;
+    Figure* copy() override;
 };
 
 #endif

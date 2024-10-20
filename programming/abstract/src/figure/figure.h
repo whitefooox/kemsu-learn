@@ -8,6 +8,7 @@ public:
     Figure();
     virtual double calcArea() = 0;
     virtual void show() = 0;
+    virtual Figure* copy() = 0;
     virtual ~Figure();
 };
 
